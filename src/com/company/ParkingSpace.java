@@ -35,7 +35,7 @@ public class ParkingSpace implements Comparable<ParkingSpace>{
         };
     }
 
-    // Returns formatted as an array of an array of strings the data from all the parking places. Used for initialzing the JTable.
+    // Returns formatted as an array of an array of strings the data from all the parking places. Used for initializing the JTable.
     public static String [][] getDataFromParkingPlaces(){
         String [][] data = new String[numberOfParkPlaces][4];
         for(int i=0;i<numberOfParkPlaces; ++i){
