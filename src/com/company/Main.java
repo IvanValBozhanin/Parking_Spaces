@@ -40,7 +40,7 @@ public class Main {
 
             // Prompted to insert data for next place if hasn't reached the end.
             if(i < numberOfParkPlaces - 1) {
-                System.out.println("=====Next Place=====");
+                System.out.printf("=====Next Place===== %d remaining\n", numberOfParkPlaces - i - 1);
             }
 
             parkingPlaces[i] = new ParkingSpace(parkPlaceNumber, parkPlaceArea, parkPlaceUser, parkPlaceDescription);
