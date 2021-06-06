@@ -13,7 +13,9 @@ public class Main {
     public static void main(String[] args) {
 //        generateRandomData();
         inputDataForTheParkPlaces();
+        System.out.println("Loading the GUI...");
         new ShowListPanel();
+        System.out.println("GUI loaded successfully. Please, open the List of Parking Spaces window.");
     }
 
     // Using Scanner and the terminal the user enters the number, area, name of the person who is using the park place, and the description of the park place.

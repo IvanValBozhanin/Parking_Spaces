@@ -23,10 +23,10 @@ public class ShowListPanel extends JFrame {
 
     public ShowListPanel(){
         // Using the JFrame constructor
-        super("List of Park Places");
+        super("List of Parking Spaces");
 
         // Setting title for the window
-        frame = new JFrame("List of Park Places");
+        frame = new JFrame("List of Parking Spaces");
 
         // Initialization the JTable and assigning data
         table = new JTable(ParkingSpace.getDataFromParkingPlaces(), names);
