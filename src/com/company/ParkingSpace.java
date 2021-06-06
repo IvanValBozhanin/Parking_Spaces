@@ -4,7 +4,7 @@ package com.company;
 public class ParkingSpace implements Comparable<ParkingSpace>{
 
     // Declaring the Field of the Class.
-    public static final int numberOfParkPlaces = 4; // Can set different numbers of parking slots
+    public static final int numberOfParkPlaces = 154; // Can set different numbers of parking slots
     public static TypeOfSorting typeOfSorting;
     public static ParkingSpace [] parkingPlaces = new ParkingSpace[numberOfParkPlaces]; // The array, holding the actual data
 
